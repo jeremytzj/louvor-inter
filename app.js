@@ -49,6 +49,17 @@ function setupEventListeners() {
     
     btnTransposeUp.addEventListener('click', () => transpose(+1));
     btnTransposeDown.addEventListener('click', () => transpose(-1));
+
+    // Fechar barra lateral ao clicar fora dela no mobile
+    document.addEventListener('click', (e) => {
+        if (window.innerWidth <= 768 && !sidebarEl.classList.contains('collapsed')) {
+            const isClickInsideSidebar = sidebarEl.contains(e.target);
+            const isClickOnToggle = sidebarToggleBtn.contains(e.target);
+            if (!isClickInsideSidebar && !isClickOnToggle) {
+                sidebarEl.classList.add('collapsed');
+            }
+        }
+    });
 }
 
 function toggleTheme() {
@@ -68,6 +79,13 @@ function renderSongList() {
             ${song.titulo}
         `;
         li.addEventListener('click', () => {
+            if (currentSong && currentSong.id === song.id) {
+                if (window.innerWidth <= 768) {
+                    sidebarEl.classList.add('collapsed');
+                }
+                return; // Evita recarregar a mesma música
+            }
+
             document.querySelectorAll('.song-list li').forEach(el => el.classList.remove('active'));
             li.classList.add('active');
             loadSong(song);
