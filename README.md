@@ -22,8 +22,11 @@ O projeto foi construído **100% sem frameworks (Vanilla)**, focando em simplici
 
 ## 🚀 Como Rodar Localmente
 
+A maneira mais fácil de rodar a pasta é clonar o repositorio, e utiliza a extensão Live Server no VSCode.
+
 O aplicativo lê o catálogo de músicas de um arquivo `.json`. Por conta da segurança natural do navegador (políticas de CORS), isso exige um servidor web rodando para funcionar (não adianta só dar dois cliques no `index.html`).
 
+Caso não consiga utilizar a extensão, faça o seguinte:
 Para rodar localmente no seu computador (tendo o Node.js instalado):
 ```bash
 npx serve .
