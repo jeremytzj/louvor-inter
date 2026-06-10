@@ -1,0 +1,438 @@
+:root {
+    /* Color Palette - Light Mode */
+    --bg-base: #f4f6f8;
+    --bg-surface: #ffffff;
+    --bg-surface-hover: #eef2f6;
+    --text-primary: #1e293b;
+    --text-secondary: #64748b;
+    --border-color: #e2e8f0;
+    
+    --primary-color: #3b82f6;
+    --primary-hover: #2563eb;
+    --chord-color: #ef4444; /* Highlight for chords */
+    --chord-hover: #dc2626;
+
+    /* Shadows & Effects */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    
+    /* Typography */
+    --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    
+    /* Dimensions */
+    --sidebar-width: 280px;
+    --header-height: 70px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
+}
+
+.dark {
+    /* Color Palette - Dark Mode */
+    --bg-base: #0f172a;
+    --bg-surface: #1e293b;
+    --bg-surface-hover: #334155;
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --border-color: #334155;
+    
+    --primary-color: #3b82f6;
+    --primary-hover: #60a5fa;
+    --chord-color: #fca5a5; /* Lighter red/pink for dark mode */
+    --chord-hover: #f87171;
+
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    overflow-x: hidden;
+}
+
+/* Layout */
+.app-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+    width: var(--sidebar-width);
+    background-color: var(--bg-surface);
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    transition: margin-left 0.3s ease, transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    z-index: 10;
+    margin-left: 0;
+}
+
+.sidebar.collapsed {
+    margin-left: calc(var(--sidebar-width) * -1);
+}
+
+.sidebar-header {
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.sidebar-header h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    background: linear-gradient(135deg, var(--primary-color), #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.song-list {
+    list-style: none;
+    overflow-y: auto;
+    flex: 1;
+    padding: 1rem 0;
+}
+
+.song-list li {
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    font-weight: 500;
+    color: var(--text-secondary);
+    transition: background-color 0.2s, color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.song-list li:hover {
+    background-color: var(--bg-surface-hover);
+    color: var(--text-primary);
+}
+
+.song-list li.active {
+    background-color: var(--bg-surface-hover);
+    color: var(--primary-color);
+    border-right: 3px solid var(--primary-color);
+}
+
+/* Main Content */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-header {
+    height: var(--header-height);
+    background-color: var(--bg-surface);
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.main-header h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.icon-btn {
+    background: none;
+    border: none;
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: var(--radius-md);
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.icon-btn:hover {
+    background-color: var(--bg-surface-hover);
+}
+
+html:not(.dark) .moon-icon,
+html.dark .sun-icon {
+    display: none;
+}
+
+
+
+/* Controls section */
+.song-controls {
+    background-color: var(--bg-surface);
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.audio-container {
+    flex: 1;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.audio-track {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.audio-label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    min-width: 80px;
+}
+
+.audio-track audio, .audio-container > audio {
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+}
+/* Style the audio player generically (mostly browser dependent, but we can round it) */
+audio::-webkit-media-controls-panel {
+    background-color: var(--bg-surface-hover);
+}
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    color: var(--text-primary);
+}
+
+.tools-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+}
+
+.tool-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--bg-base);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+}
+
+.tool-label {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+.tool-label strong {
+    color: var(--primary-color);
+    margin-left: 0.25rem;
+}
+
+.tool-buttons, .scroll-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn {
+    background-color: var(--bg-surface);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+    padding: 0.4rem 0.8rem;
+    border-radius: var(--radius-md);
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background-color: var(--bg-surface-hover);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+.icon-btn-small {
+    padding: 0.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
+/* Range input styling */
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100px;
+    background: transparent;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    cursor: pointer;
+    margin-top: -6px;
+    box-shadow: var(--shadow-sm);
+}
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4px;
+    cursor: pointer;
+    background: var(--border-color);
+    border-radius: 2px;
+}
+
+/* Cypher Area */
+.cypher-area {
+    flex: 1;
+    overflow-y: hidden;
+    overflow-x: auto;
+    padding: 1rem 2rem;
+}
+
+.cypher-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 3rem; /* O "mais um pouquinho de padding" entre colunas */
+    width: max-content;
+    font-family: 'Inter', monospace;
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+.placeholder-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    color: var(--text-secondary);
+    text-align: center;
+}
+
+.placeholder-text ion-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    opacity: 0.5;
+}
+
+/* Cypher Rendering Classes */
+.cypher-line {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 2.2em;
+    margin-bottom: 0.5rem;
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+.section-tag {
+    font-weight: 700;
+    color: var(--primary-color);
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.1em;
+    width: 100%;
+    break-after: avoid;
+    page-break-after: avoid;
+}
+
+.chord-group {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 0.05rem; /* slight spacing */
+    vertical-align: bottom; /* Mantém a base do texto perfeitamente alinhada */
+}
+
+.chord {
+    color: var(--chord-color);
+    font-weight: 700;
+    font-size: 0.9em;
+    min-height: 1.2em; /* Keep space even if no chord */
+    margin-bottom: -0.3em; /* Pull lyrics slightly closer to chords */
+}
+
+.lyric {
+    white-space: pre; /* preserve spaces from original text */
+    color: var(--text-primary);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .app-container {
+        position: relative;
+    }
+    
+    .sidebar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        margin-left: 0;
+        transform: translateX(0);
+        box-shadow: var(--shadow-md);
+    }
+    
+    .sidebar.collapsed {
+        transform: translateX(-100%);
+        margin-left: 0;
+    }
+    
+    .main-header {
+        padding: 0 1rem;
+    }
+    
+    .song-controls {
+        padding: 1rem;
+    }
+    
+    .cypher-area {
+        padding: 1rem;
+    }
+    
+    .cypher-content {
+        font-size: 1rem;
+    }
+}
