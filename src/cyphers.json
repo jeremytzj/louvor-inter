@@ -32,7 +32,7 @@
     "titulo": "Canção de Simeão",
     "tom_original": "E",
     "audio_url": "./src/audio/Cancao_simeao_E.mp3",
-    "cifra_chordpro": "[Intro]\n [A|] [E6|] [A|] [E6]\n{Verso 1}\n[A]Os meus olhos viram a salva[E6]ção\n[A]A luz para o mundo, esperança da [E6]terra\n[C#m]E eu [E6/G#]não sou mais [A7M]meu\n[C#m]E eu [E6/G#]não sou mais [A7M]meu\n{Verso 2}\n[A]Cristo, tu és a minha por[E6]ção\n[A]O trigo esmagado, vinho novo e o [E6]pão\n[C#m]E eu [E6/G#]não sou mais [A7M]meu\n[C#m]E eu [E6/G#]não sou mais [A7M]meu\n{Pré-Refrão}\nÉs a [F#m7]fome que [E6/G#]me faz cant[A7M]ar\nÉs a[F#m7] sede que [E6/G#]me faz be[A7M]ber\nÉs o [F#m7]nome que [E6/G#]escuto ao dei[A7M]tar\nE o[F#m7]lhar que vejo [E6/G#]ao amanhe[B9]cer\n\n\n{Refrão}\n[A9]E essa é minha pro[E6/G#]messa\nEu gastarei minha [A9]vida pra Te coro[E6/G#]ar\n[F#m]Esse é o meu an[E6/G#]seio\nO meu amor por [A9]Ti não será um se[E6/G#]gredo"
+    "cifra_chordpro": "[Intro]\n [A|] [E6|] [A|] [E6]\n{Verso 1}\n[A]Os meus olhos viram a salva[E6]ção\n[A]A luz para o mundo, esperança da [E6]terra\n[C#m]E eu [E6/G#]não sou mais [A7M]meu\n[C#m]E eu [E6/G#]não sou mais [A7M]meu\n{Verso 2}\n[A]Cristo, tu és a minha por[E6]ção\n[A]O trigo esmagado, vinho novo e o [E6]pão\n[C#m]E eu [E6/G#]não sou mais [A7M]meu\n[C#m]E eu [E6/G#]não sou mais [A7M]meu\n{Pré-Refrão}\nÉs a [F#m7]fome que [E6/G#]me faz cant[A7M]ar\nÉs a[F#m7] sede que [E6/G#]me faz be[A7M]ber\nÉs o [F#m7]nome que [E6/G#]escuto ao dei[A7M]tar\nE o[F#m7]lhar que vejo [E6/G#]ao amanhe[B9]cer\n{Refrão}\n[A9]E essa é minha pro[E6/G#]messa\nEu gastarei minha [A9]vida pra Te coro[E6/G#]ar\n[F#m]Esse é o meu an[E6/G#]seio\nO meu amor por [A9]Ti não será um se[E6/G#]gredo"
   },
   {
     "id": "digno-de-tudo",
@@ -42,25 +42,23 @@
     "cifra_chordpro": "[Intro] \n[A9| ] [B6(11)| ] [A9| ] [B6(11)]\n{Verso 1}\n[A9]Os santos e os [B6(11)]anjos\n[A9]Se prostram aos Teus [B6(11)]pés\n[A9]Os anciãos rendem [B6(11)]suas c[E/G#]oroas \nAo cor[A9]deiro\nE a[B6(11)]Ele ca[E]ntam\n{Refrão}\nTu és digno de [E]tudo\nTu és digno de [B11]tudo\nPois tudo [E/G#]vem de [A9]Ti \nE tudo é para [B11]Ti\nTua é a [E]glória\n{Ponte}\n[E|] [G#m7|] [C#m|] [A9|] \n[E/B|] [B|] [F#m7|] [A9|]\n[E]Dia e noite suba a Ti nossa adora[G#m7]ção\n[C#m7]Dia e noite suba a Ti nossa adora[A9]ção\n[E/B]Dia e noite suba a Ti nossa adora[B9]ção\n[F#m7]Dia e noite suba a Ti nossa adora[A9]ção\n{Refrão 2}\nTe exal[E]tamos\nTe exal[B]tamos\nTe exal[A]tamos [B]\nÓ Se[E]nhor"
   },
   {
+    "id": "e-ele-ele-e-exaltado",
+    "titulo": "É Ele + Ele é exaltado",
+    "tom_original": "E",
+    "audio_urls": [
+        {
+        "title": "É Ele",
+        "url": "./src/audio/E_ele_E.mp3"
+        }
+    ],
+    "cifra_chordpro": "[Intro]\n [A|] [B|] [C#m|][G#m|] [A|] [B]\n{Verso 1}\n[E]Estou preparando um caminho\n[C#m]Endirei[A]tando as ve[E]redas\n[E]E cada vez mais diminuindo\n[C#m]Porque im[A]porta que Ele cres[E]ça\n{Verso 2}\nE [A]Nele o meu prazer es[C#m]tá\nE eu não sou digno de desa[E]tar\nAs suas san[B11]dálias\nE [A]Nele a minha vida es[C#m]tá\nE eu caminho com a cer[E]teza\nDe que Ele vi[B11]rá\n{Refrão}\nE é [A]Ele, por [B11]Ele que eu estou\nGastando a minha [C#m]vida\nPerdendo tudo por a[G#m7]mor\nE com ale[A]gria\nDono dos meus [B11]dias\n{Ponte}\nE Ele vi[E]rá soberano em po[E4]der\nEle vi[C#m]rá e o governo está Nele\n[F#m]Vejam, Ele traz con[A]sigo\nA sua recompensa\nE Ele vi[C#m]rá soberano em po[]der\nEle vi[E]rá e o governo está Nele\n[F#m]Vejam, Ele traz con[A]sigo\nA sua recom[B11]pensa\n{{Repete Refrão}}\n{Final}\n[A]Ele é o Se[B]nhor\nSua ver[C#m]dade vai sempre rei[E/G#]nar\n[A]Terra e [B]céus\nGlori[C#m]ficam seu santo no[E/G#]me\n[A]Ele é exaltado\nO [B]rei é exaltado nos [E]céus"
+  },
+  {
     "id": "efesios-1",
     "titulo": "Efésios 1",
     "tom_original": "G",
     "audio_url": "./src/audio/Efesios1_G.mp3",
     "cifra_chordpro": "[Intro] \n [C|] [Em|] [D|] [G|] [G/B|] [C|]\n[C|] [Em|] [D|] [G|] [G/B|] [C|] [G|]\n{Verso 1}\n[Em]Antes do tempo exis[D]tir\nEscolheu-nos pra [C]Si\n[Em]Nos encontrou e por [D]graça\nEle nos ado[C]tou\n{Pré-Refrão}\nPara [G/B]Sua [C]glória\n[D4]E pro Seu lou[Em]vor\nPara [G/B]Sua [C]glória\n[D4]E pro Seu lou[G]vor\n{Refrão}\nAo Se[C]nhor, [Em]Deus [D]Pai\nO lou[G]vor que trans[G/B]borda de [C]nós\nO [C]Seu [Em]povo es[D]tá\nReu[G]nido em sin[G/B]cero fer[C]vor\nPara [G/B]Sua [C]glória\n[D4]E pro Seu louvor\n[{Repete Intro}]\n{Verso 2}\n[Em]Cristo e Seu sangue\nA [D]nós redenção conce[C]deu\n[Em]Com o fim de nos tor[D]nar\nCoerdeiros de [C]Deus\n{Pré-Refrão}\nPara [G/B]Sua [C]glória\n[D4]E pro Seu lou[Em]vor\nPara [G/B]Sua [C]glória\n[D4]E pro Seu lou[G]vor\n{{Repete Refrão}}\n{Ponte}\n[C]E nós es[D4]peramos [G]por Ti [G/B]\n[C]Confi[D4]antes\n[Em]Que lá no fim, nos resgata[G/B]rás\n[C]A pro[D4]messa [G]feita aqui (feita a[G/B]qui)\n[C]Traz cer[D4]teza \n[Em]Todo viver pra Tua glória se[G/B]rá\n{{Repete Refrão}}"
-  },
-  {
-    "id": "eu-provei-e-vi",
-    "titulo": "Eu provei e vi",
-    "tom_original": "A",
-    "audio_url": "./src/audio/Eu_provei_e_vi_A.mp3",
-    "cifra_chordpro": "[Intro] [A|] [D|] [F#m|] [A|] [Bm|]\n{Verso 1}\n[A]Tu és o Deus que parou o sol\n[F#m]Tu és o Deus [D]que abriu o [A]mar\n[A]Tu és o Deus que nunca falhará\n[F#m]Você já [D] fez, você fa[A]rá\n{Verso 2}\n[F#m]Tu és o Cristo que a morte ven[A]ceu\n[F#m]Tu és o Verbo [D]que se encar[A]nou\n[A]Tu és o Deus que não se esquecerá\n[F#m]Você já [D] fez, você fa[A]rá\n{Pré-Refrão}\n[D]Tu és o fogo que habita em [A]mim\n[D]Tu és o vento que sopra [E]hoje a[F#m]qui\n[D]Tu és o Deus que não muda[F#m]rá\n[E]Você [D]já fez, você fa[A]rá\n{Refrão}\n[D]Eu provei e vi o quão bom tu [A]és\n[Bm]Eis-me aqui, Je[E4]sus, de no[F#m]vo\n [A|] [D|] [A|]\n{{Verso 1}}\n{{Verso 2}}\n{{Pré-Refrão}}\n{{Refrão}}\n{Ponte}\n[F#m]Você não muda, [D]você não falhará\n[A]Você já fez, vo[C#m]cê fará\n[F#m7]Tu és eterno [D]e não se esquecerá\n[A]Você já fez, vo[E]cê fará"
-  },
-  {
-    "id": "eu-vou-construir",
-    "titulo": "Eu vou construir",
-    "tom_original": "E",
-    "audio_url": "./src/audio/Eu_vou_construir_E.mp3",
-    "cifra_chordpro": "[Intro]\n [E|] [E7M/B|] [A7M]\n{Verso 1}\n[E]Digno desta [A7M]canção só Tu és Senhor\n[E/G#]Digno do meu louvor [A]só Tu és Senhor\n[E]Digno da minha [A]vida Tu és Senhor\nOh eu sou [E/G#]Teu [A]\n[E]Nome que é sobre[A] todos é o Teu Jesus\n[E/G#]Fonte da sa[A6]lvação só Tu és Jesus\n[E]Digno da minha [A]vida Tu és Jesus\nOh eu sou [E/G#]Teu, oh eu sou [A] Teu\n{Refrão}\n[A]Santo\nÉs incompa[F#m7]rável\nÉs inigua[E/B]lável\nAbre os meus [C#m]olhos, Senhor\n[A]Mostra quem Tu és\nE [F#m7]enche o meu cor[E/B]ação do amor que faz [C#m]mudar o mundo\n[E|] [E7M/B|] [A7M]\n{{Verso 1}}\n{{Refrão}}\n[A|] [B|] [C#m|] [E/G#]\n{Ponte} [A7M(9)]Eu vou constru[B4]ir minha vida em [C#m]Ti\nTu és meu funda[E/G#]mento\n[A7M]Eu vou confi[B4]ar somente em [C#m]Ti\nNão vou ser aba[E/G#]lado\n{{Refrão}}"
   },
   {
     "id": "entrega-tudo-e-teu",
@@ -78,54 +76,104 @@
     ],
     "cifra_chordpro": "[Intro]\n [G|] [D/F#|] [C|] [Em7|] [D/F#]\n{Verso 1}\n[G]Te dou meu cora[D]ção\nE tudo que há em [C]mim\nEntrego meu vi[Em7]ver\nPor amor a [D/F#]ti, meu [G]rei!\nMeus sonhos rendo a [D]ti\nE meus direitos [C]dou\nO orgulho vou tro[Em7]car\nPela [D/F#]vida do se[G]nhor [D/F#]\n{Refrão 1}\nE [Em7]eu [D/F#] [G] entrego [C]tudo a [G]ti\n[Em7]Tudo a [D]ti [C]\n{Verso 2}\n[G]Eu canto esta can[D]ção\nDe entrega a ti, Je[C]sus\nE o que o mundo [Em7]dá\nEu deixo aos [D/F#]pés da [G]cruz\nPor conhecer a [D]ti\nA teu nome dar lou[C]vor\nSentir tua ale[Em7]gria\nPartilhando [D/F#]tua [G]dor\n{Refrão 1}\nE [Em7]eu [D/F#] [G] entrego [C]tudo a [G]ti\n[Em7]Tudo a [D]ti [C]\n{Refrão 2}\nTudo o que eu tenho é [G]Teu, Cristo\nTudo o que eu sou é [C9]Teu, Filho\n[Em7]Minha casa, meu dinheiro\n[G/B]Meu destino por inteiro\n[C9]Tudo é Teu"
   },
-  
+  {
+    "id": "eu-provei-e-vi",
+    "titulo": "Eu provei e vi",
+    "tom_original": "A",
+    "audio_url": "./src/audio/Eu_provei_e_vi_A.mp3",
+    "cifra_chordpro": "[Intro] [A|] [D|] [F#m|] [A|] [Bm|]\n{Verso 1}\n[A]Tu és o Deus que parou o sol\n[F#m]Tu és o Deus [D]que abriu o [A]mar\n[A]Tu és o Deus que nunca falhará\n[F#m]Você já [D] fez, você fa[A]rá\n{Verso 2}\n[F#m]Tu és o Cristo que a morte ven[A]ceu\n[F#m]Tu és o Verbo [D]que se encar[A]nou\n[A]Tu és o Deus que não se esquecerá\n[F#m]Você já [D] fez, você fa[A]rá\n{Pré-Refrão}\n[D]Tu és o fogo que habita em [A]mim\n[D]Tu és o vento que sopra [E]hoje a[F#m]qui\n[D]Tu és o Deus que não muda[F#m]rá\n[E]Você [D]já fez, você fa[A]rá\n{Refrão}\n[D]Eu provei e vi o quão bom tu [A]és\n[Bm]Eis-me aqui, Je[E4]sus, de no[F#m]vo\n [A|] [D|] [A|]\n{{Verso 1}}\n{{Verso 2}}\n{{Pré-Refrão}}\n{{Refrão}}\n{Ponte}\n[F#m]Você não muda, [D]você não falhará\n[A]Você já fez, vo[C#m]cê fará\n[F#m7]Tu és eterno [D]e não se esquecerá\n[A]Você já fez, vo[E]cê fará"
+  },
+  {
+    "id": "eu-vou-construir",
+    "titulo": "Eu vou construir",
+    "tom_original": "E",
+    "audio_url": "./src/audio/Eu_vou_construir_E.mp3",
+    "cifra_chordpro": "[Intro]\n [E|] [E7M/B|] [A7M]\n{Verso 1}\n[E]Digno desta [A7M]canção só Tu és Senhor\n[E/G#]Digno do meu louvor [A]só Tu és Senhor\n[E]Digno da minha [A]vida Tu és Senhor\nOh eu sou [E/G#]Teu [A]\n[E]Nome que é sobre[A] todos é o Teu Jesus\n[E/G#]Fonte da sa[A6]lvação só Tu és Jesus\n[E]Digno da minha [A]vida Tu és Jesus\nOh eu sou [E/G#]Teu, oh eu sou [A] Teu\n{Refrão}\n[A]Santo\nÉs incompa[F#m7]rável\nÉs inigua[E/B]lável\nAbre os meus [C#m]olhos, Senhor\n[A]Mostra quem Tu és\nE [F#m7]enche o meu cor[E/B]ação do amor \nque faz [A/C#]mudar o mundo\n[E|] [E7M/B|] [A7M]\n{{Verso 1}}\n{{Refrão}}\n[A|] [B|] [C#m|] [E/G#]\n{Ponte} [A7M(9)]Eu vou constru[B4]ir minha vida em [C#m]Ti\nTu és meu funda[E/G#]mento\n[A7M]Eu vou confi[B4]ar somente em [C#m]Ti\nNão vou ser aba[E/G#]lado\n{{Refrão}}"
+  },
   {
     "id": "ha-poder",
     "titulo": "Há Poder",
     "tom_original": "G",
-    "audio_url": "./src/audio/ha-poder.mp3",
-    "cifra_chordpro": "[Intro] C D C D\n\n{Verso 1}\n[C] [Em] [D] O verbo vivo que deixou sua glória por nós\n[Bm] [C] Em amor se entregou\n[Em] [D] És o Cristo, filho de Deus\n\n{Verso 2}\n[C] [Em] [D] Pelo seu sangue uma nova vida nos deu\n[Bm] [C] Sua dor nos redimiu\n[Em] [D] És o Cristo, filho de Deus\n\n{Pré-refrão}\n[Am7] [Em7] [G] [D] Precioso é o sangue daquele que a morte venceu\n[Am7] [Em7] [G] [D] Glorioso é o nome daquele que é justo e fiel\n\n{Refrão}\n[Em] [D/F#] [G] [Am] Há poder no Teu Nome, Jesus\n[Em] [D] Rei sobre o Trono\n[Em] [D/F#] [G] [Am] Ao ouvir Teu Santo Nome, Jesus\n[Em] [D] Todos Te louvam"
+    "audio_url": "./src/audio/Ha_poder_G.mp3",
+    "cifra_chordpro": "[Intro]\n [C|] [D|] [C|] [D]\n{Verso 1}\n[C]O verbo vivo que deixou sua [Em]glória por [D]nós\nEm a[Bm]mor se entre[C]gou\nÉs o [Em]Cristo, filho de [D]Deus\n[C]Pelo seu sangue uma [Em]nova vida nos [D]deu\nSua [Bm]dor nos redi[C]miu\nÉs o [Em]Cristo, filho de [D]Deus\nPre[Am]cioso é o [Em]sangue da[G]quele que a morte ven[D]ceu\nGlo[Am]rioso é o [Em]nome da[G]quele que é justo e [D]fiel\n{Refrão}\nHá po[Em]der [D/F#] no Teu [G]Nome, Je[Am]sus\n[Em]Rei sobre o [D]Trono\nAo ou[Em]vir Teu [D/F#] Santo [G]Nome, Je[Am]sus\n[Em]Todos Te [D]louvam\n{{Repete Verso 1}}\n{{Repete Refrão}}\n[Am|] [C|]\n{Ponte}\n[Am]Basta uma palavra Tua, e os mortos viverão\n[C]Basta uma palavra Tua, e os cegos verão\n[Am]Apenas uma palavra Tua, e tudo mudará\nSe pe[Em]dimos em Teu [D]Nome\n{Solo}\n [Em|] [D/F#|] [G|] [Am|] [Em|] [D|]\n [Em|] [D/F#|] [G|] [Am|] [Em|] [D|]\n{Repete Refrão}\n{Ponte 2}\n{{Repete Refrão}}"
+  },
+  {
+    "id": "minha-oracao",
+    "titulo": "Minha Oração",
+    "tom_original": "E",
+    "audio_url": "./src/audio/Minha_oracao_E.mp3",
+    "cifra_chordpro": "[Intro]\n [A|] [E|] [E/G#|]\n{Verso 1}\n[A]A minha ora[B]ção é que se[E]jas o pri[E/G#]meiro\nEm minha [A]vida, em [E]minha [E/G#]vida\n[A]Eu não quero [B]mais per[E]der o brilho dos meus [E/G#]dias\n[A]Quero permanecer olhando pra[E] ti  [E/G#]\n[A]Podem me tirar os bens\n[E]Me deixar de mãos va[E/G#]zia\nTu [A]és senhor tudo o que [B]tenho\n[A]Pode a tempestade vir\n[E]E desaparecer o [E/G#]meu chão\n[A]Tu és senhor tudo o que [B]tenho\n{Refrão}\n[E]Jesus, o bem ma[A]is precioso que tenho\nAos teus [C#m]pés eu derramo minha [B]vida\nEste é o meu lu[A]gar\n[E]Jesus o bem ma[A]is precioso que tenho\nMinha he[C#m]rança eterna\nEu [B]sei, nada me falta[A]rá\n{Ponte}\nO prin[A]cípio\nE o [C#m]fim\nDeus co[E]nosco\nEmanu[B]el\nO prin[A]cípio\nE o [C#m]fim\nDeus co[E]nosco\nEmanu[B]el\n{{Repete Refrão}}"
   },
   {
     "id": "nao-ha-amor-igual",
-    "titulo": "Não há Amor Igual",
+    "titulo": "Não Há Amor Igual",
     "tom_original": "G",
-    "audio_url": "./src/audio/nao-ha-amor-igual.mp3",
-    "cifra_chordpro": "[Intro] G C9 G C9 Em7 C9 G C9\n\n{Verso 1}\n[G] [C9] [C9] Nada se compara ao teu amor\n[G] Deixou sua gloria e habitou\n[Em7] Entre nós\n[C9] Em tudo foi tentado\n[G] [C9] Levou sobre si as nossas dores\n[G] [C9] Foi moído por nossos pecados\n[Em7] Por seu sangue\n[C9] [G] Nós fomos lavados\n\n{Pré-Refrão}\n[Am] [G/B] [C9] E o castigo que nos traz a paz\n[Em7] [D] Estava sobre ti\n[Am] [G/B] [C9] Por suas pisaduras nós fomos sarados\n[D] Totalmente\n\n{Refrão}\n[G] Não há amor igual\n[D/F#] Jesus tu és real\n[Am] [G/B] [C9] És o meu amigo fiel\n[G] Maravilhoso amor\n[D/F#] Sim, Jesus me salvou\n[Am] [G/B] [C9] És o sacrifício perfeito"
+    "audio_url": "./src/audio/Nao_ha_amor_igual_G.mp3",
+    "cifra_chordpro": "[Intro]\n [G|] [C9|] [G|] [C9|] [Em7|] [C9|] [G|] [C9|]\n{Verso 1}\n[G]Nada se compara ao teu a[C9]mor\n[G]Deixou sua gloria e habi[C9]tou\nEntre [Em7]nós\nEm tudo [C9]foi tentado\n[G]Levou sobre si as nossas [C9]dores\n[G]Foi moído por nossos pe[C9]cados\nPor seu [Em7]sangue\nNós fomos [C9]lavados [G]\n{Pré-Refrão}\nE o cas[Am]tigo que [G/B]nos traz a paz[C9] \nEstava [Em7]sobre ti[D]\nPor suas pisa[Am]duras nós [G/B]fomos sa[C9]rados\nTotal[D]mente\n{Refrão}\nNão há [G]amor igual\nJesus [D/F#]tu és real\nÉs o [Am]meu a[G/B]migo fi[C9]el\nMaravil[G]hoso amor\nSim, Jesus [D/F#]me salvou\nÉs o [Am]sacri[G/B]fício per[C9]feito\n[Interlúdio]\n [G|] [C9|] [G|] [C9|] [Em7|] [C9|] [G|] [C9|]\n{{Repete Pré-Refrão}}\n{{Repete Refrão}}\n{Ponte}\n[C9]Tudo que eu tenho te[D]rás\nTudo que eu sou tu te[C/E]rás\nEm resposta ao teu sacri[D/F#]fício\nEm resposta ao teu sacri[C9]fício\n{{Repete Refrão}}\n{{Fim}}\nÉs o sacrifício perfeito\n [A7|] [G/B|] [C9|]\nÉs o sacrifício perfeito\n [A7|] [G/B|] [C9|]"
   },
   {
     "id": "pardal",
     "titulo": "Pardal",
     "tom_original": "E",
-    "audio_url": "./src/audio/pardal.mp3",
-    "cifra_chordpro": "[Intro] E F#m7 A\nC#m B A\n\n{Verso 1}\n[E] [B/D#] Deus do secreto\n[C#m] [E/G#] [A] Sempre me ouve\n[E] [B/D#] És minha fonte\n[C#m] [E/G#] [A] Minha porção pra vida inteira\n\n{Pré-refrão}\n[F#m7] [E/G#] [A] Eu ainda terei fome\n[F#m7] [E/G#] [A] Eu ainda terei sede\n[F#m7] [E/G#] [A] Eu ainda terei lágrimas\n[F#m7] [E/G#] [A] Daqui não vou sair\n\n{Refrão}\n[E] [E/G#] O pardal encontrou casa\n[A] E a andorinha achou\n[F#m7] Um ninho para si\n[C#m] [B] [A] E eu, Senhor, os Teus altares"
+    "audio_url": "./src/audio/Pardal_E.mp3",
+    "cifra_chordpro": "[Intro]\n [E|] [F#m7|] [A|]\n [C#m|] [B|] [A|]\n{Verso 1}\n[E]Deus do se[B/D#]creto\n[C#m]Sempre [E/G#]me ou[A]ve\n[E]És minha [B/D#]fonte\n[C#m]Minha por[E/G#]ção pra vida in[A]teira\n{Pré-Refrão}\n[F#m7]Eu ainda [E/G#]terei [A]fome\n[F#m7]Eu ainda [E/G#]terei [A]sede\n[F#m7]Eu ainda [E/G#]terei [A]lágrimas\n[F#m7]Daqui [E/G#]não vou sa[A]ir\n[Interlúdio]\n [E|] [F#m7|] [A|]\n [C#m|] [B|] [A|]\n{Verso 2}\n[E]Deus de ali[B/D#]ança\n[C#m]Sempre [E/G#]me en[A]contra\n[E]És minha [B/D#]rocha\n[C#m]Meu firme [E/G#]funda[A]mento\n{{Repete Pré-Refrão}}\n[E|] [E/G#|]\n{Refrão}\nO pardal encontrou [A]casa\nE a andorinha a[F#m7]chou\nUm ninho para [C#m]si\nE [B]eu, Senhor, os Teus al[A]tares\n[Interlúdio 2]\n [E|] [F#m7|] [E/G#|] [A|]\n [C#m|] [E|] [E/G#|] [A|]\n{Ponte}\nTu tens meu cora[E]ção\nNo dia [F#m7]bom, no dia [E/G#]mau [A]\nTu tens as minhas [E]mãos\nNo dia [F#m7]bom, no dia [E/G#]mau [A]"
+  },
+  {
+    "id": "redencao",
+    "titulo": "Redenção",
+    "tom_original": "D",
+    "audio_url": "./src/audio/Redencao_D.mp3",
+    "cifra_chordpro": "[Intro]\n[G/D|] [D|] [G/D|] [D|] \t[(2x)] \n{Primeira Parte}\nVivo [D]hoje estou aqui\nPois ele deci[G]diu me amar\nE en[A]tão [Bm]eu posso livre an[G]dar [D]\nO seu [D]sangue sobre mim\nMe com[G]prou me restaurou\nSem cul[Bm]pa então me tor[G]nou [D]\n{Pré-Refrão}\nO pas[G]sado já não mais\nTem po[G7M]der, pois novo sou\nNele [A]vou viver, posso a[Bm]mar\nToda [G]morte e o sofrer\nNão [A]me as[Bm]sustarão jamais\nPois foi [A]ele quem venceu\nEm meu lu[A]gar\n{Refrão}\nJesus [G]Cristo, Rei dos [D]reis\nNos trou[A]xe a reden[Bm]ção\nA espe[G]rança retor[D]nou\nGraça e [A]paz nos reve[Bm]lou\n[Interlúdio]\n[G/D|] [D|] [G/D|] [D|] \t[(2x)]\n{Verso}\nVivo [D]hoje estou aqui\nPois ele deci[G]diu me amar\nE en[Bm]tão eu posso livre an[G]dar [D]\nO seu [D]sangue sobre mim\nMe com[G]prou me restaurou\nSem cul[Bm]pa então me tor[G]nou [D]\n{{Repete Pré-Refrão}}\n{Ponte}\n[Bm]Tudo entregar\n[D]Vou me render\n[A]Aos seus pés\nVou me lan[Em]çar\n[Bm]Tudo entregar\n[D]Vou me render\n[A]Aos seus pés\nVou me lan[Em]çar\n{{Repete Ponte}}\n{{Repete Pré-Refrão}}\n{{Repete Refrão}}\n{Final}\n [G/D|] [D|]"
   },
   {
     "id": "reina-em-mim",
-    "titulo": "Reina em mim",
+    "titulo": "Reina Em Mim",
     "tom_original": "C",
-    "audio_url": "./src/audio/reina-em-mim.mp3",
-    "cifra_chordpro": "[Intro] G9 F G9 F\nC9 G Dm F9\nAm G F9\n\n{Verso 1}\n[C9] [G] [F9] [G] [C9] Sobre toda a terra Tu és o Rei\n[G] [F9] [G] [Am] Sobre as montanhas e o pôr-do-sol\n[G] [F9] [G] [Dm] Uma coisa só, meu desejo é\n[F9] [G] [C9] Vem reinar de novo em mim\n\n{Refrão}\n[G] [F9] [G] [C9] Reina em mim com o Teu poder\n[G] [F9] [G] [Am] Sobre a escuridão, sobre os sonhos meus\n[G] [F9] [G] [Dm] Tu és o Senhor de tudo que sou\n[F9] [G] [C9] Vem reinar em mim, Senhor"
+    "audio_url": "./src/audio/Reina_em_mim_C.mp3",
+    "cifra_chordpro": "[Intro]\n [G9|] [F|] [G9|] [F|]\n [C9|] [G|] [Dm|] [F9|]\n [Am|] [G|] [F9|]\n{Verso 1}\n[C9]Sobre [G]toda a [F9]terra Tu [G]és o [C9]Rei\n[G]Sobre as mon[F9]tanhas e o [G]pôr-do-[Am]sol\n[G]Uma coisa [F9]só, meu de[G]sejo [Dm]é\nVem rei[F9]nar de [G]novo em [C9]mim\n{Refrão}\n[G]Reina em [F9]mim com o [G]Teu po[C9]der\n[G]Sobre a escuri[F9]dão, sobre os [G]sonhos [Am]meus\n[G]Tu és o Se[F9]nhor de [G]tudo que [Dm]sou\nVem rei[F9]nar em [G]mim, Se[C9]nhor\n[Interlúdio 1]\n [C9|] [G|] [Dm|] [F9|] [Am|] [G|] [F9|]\n{Verso 2}\n[C9]Sobre o meu pen[G]sar, tudo [F9]que eu fa[G]lar [C9]\n[G]Faz-me refle[F9]tir a beleza [G]que há em [Am]Ti\n[G]Tu és para [F9]mim mais que [G]tudo a[Dm]qui\nVem rei[F9]nar de [G]novo em [C9]mim\n{{Repete Refrão}}\n[Interlúdio 2]\n [C9|] [G|] [Dm|] [F9|]\n [C9|] [G|] [Dm|] [F9|]\n [C9|] [G|] [Dm|] [F9|]\n [Am|] [G|] [F9|]\n{{Repete Verso 2}}\n{{Repete Refrão}}\n{Final}\nVem rei[F9]nar em [G]mim, Se[Dm]nhor\nVem rei[F9]nar em [G]mim, Se[C9]nhor\n[C9|] [G|] [Dm|] [F9|]   [C9|] [G|] [Dm|] [F9|]\n[C9|] [G|] [Dm|] [F9|]   [Am|] [G|] [F9|]"
   },
   {
     "id": "santo-espirito",
     "titulo": "Santo Espírito",
     "tom_original": "E",
-    "audio_url": "./src/audio/santo-espirito.mp3",
-    "cifra_chordpro": "[Intro] E E A A\n\n{Verso 1}\n[E] Não há nada igual\n[A] Não há nada melhor\n[E] A que se compara à esperança viva\n[A] Tua presença\n[E] Eu provei e vi\n[A] O mais doce amor Que liberta o meu ser\n[E] E a vergonha desfaz\n[A] Tua presença\n\n{Refrão}\n[E] Santo Espírito, és bem-vindo aqui\n[A] [F#m7] Vem inundar, encher esse lugar\n[E] É o desejo do meu coração\n[A] [F#m7] Sermos inundados por Tua glória"
+    "audio_url": "./src/audio/Santo_espirito_E.mp3",
+    "cifra_chordpro": "{Verso 1}\n[E9]Não há nada igual\nNão há nada me[A5(7M)]lhor\nA que se compara à esperança [E9]viva\nTua pre[A5(7M)]sença\n[E9]Eu provei e vi\nO mais doce a[A5(7M)]mor\nQue liberta o meu ser\nE a vergonha des[E9]faz\nTua pre[A5(7M)]sença\n{Refrão}\n[E9]Santo Espírito, és bem-vindo aqui\nVem inun[A5(7M)]dar, encher esse lu[F#m7]gar\nÉ o de[E9]sejo do meu coração\nSermos inun[A5(7M)]dados por Tua glória, Se[F#m7]nhor\n[E9]Santo Espírito, és bem-vindo aqui\nVem inun[A5(7M)]dar, encher esse lu[F#m7]gar\nÉ o de[E9]sejo do meu coração\nSermos inun[A5(7M)]dados por Tua glória [F#m7]\nSen[E]hor\n [E9|] [A5(7M)|] [F#m7|]\n [E9|] [A5(7M)|] [F#m7|]\n{Ponte}\nVamos pro[A5(7M)]var [E/G#]\nQuão re[F#m7]al é Tua pre[E/G#]sença\nVamos pro[A5(7M)]var [E/G#]\nA Tua [F#m7]glória e bon[E/G#]dade\nSen[A]hor\n{{Repete Refrão}}"
+  },
+  {
+    "id": "so-tu-es-santo-poderoso-esse-nome-e",
+    "titulo": "Só Tu És Santo + Poderoso esse nome é",
+    "tom_original": "E",
+    "audio_urls": [
+        {
+        "title": "Só Tu És Santo",
+        "url": "./src/audio/So_tu_es_santo_E.mp3"
+        },
+        {
+        "title": "Poderoso esse nome é",
+        "url": "./src/audio/Poderoso_esse_nome_e_E.mp3"
+        }
+    ],
+    "cifra_chordpro": "[Intro]\n [E9|] [A9|]\n{Verso 1}\n[E]Tudo está preparado aqui\n[Asus2]A casa e o meu coração também\n[E9/G#]Tu és o único motivo\nQue me [A]fez che[B]gar [A9]\n[E]Os filhos já estão chegando aqui\n[Asus2]Agora, somos dois ou três ou mais\n[E9/G#]Encontre meu coração\nDisposto a [A9]queimar [B] por ti [A9]\n{Pré-Refrão}\nTodos os[E9/G#] versos e canções\nQue eu [A9]conseguir cantar\nTodas as[E9/G#] vezes quebrantado\nSó [A9]quero te falar\nTeu é [C#m]o reino e a [B]glória pra [A]sempre!  \nTeu é [C#m]o domínio e o [B]poder \nAm[A9]ém e amém!\nTeu é o[C#m] reino e a [B9]glória pra sem[A9]pre!  \nTeu é o [C#m]domínio e o [B9]poder \nAm[A9]ém e amém!\n[Interlúdio]\n [E9|] [A9|] [E9/G#|] [F#m7|] [E9/G#|] [A9|]\n [E9|] [A9|] [E9/G#|][F#m7|] [E9/G#|] [A9|]\n{Refrão}\nSó tu és [E9]santo! Só tu és [A9]santo!\nNão há outro como [E9/G#]tu\nNão há outro como [F#m7]tu\nNão há outro como [E9/G#]tu\nNão há outro como Je[A9]sus\n{{Repete Refrão}}\n{Ponte}\nA morte ven[A]ceste\nO véu Tu rom[B]peste\nA tumba va[C#m7]zia agora es[E/G#]tá\nO céu Te a[A]dora\nProclama Tua [B]glória\nPois ressusci[C#m7]taste e vivo es[E/G#]tá\nÉs inven[A]cível, inigua[B]lável\nHoje e pra [C#m7]sempre reina[E/G#]rás\nTeu é o [A]reino Tua é a [B]glória\nAcima de [C#m7]todo nome es[B]tás\n{Refrão Poderoso Esse Nome É}\nPoderoso esse nome [E]é\nPoderoso esse nome [B]é\nO nome [C#m7]de Jesus[B], meu [A]rei\nPoderoso esse nome [E/G#]é\nMais forte que tudo [B]é\nPoderoso esse nome [C#m7]é\nO [B]nome de Je[A]sus"
   },
   {
     "id": "sublime",
     "titulo": "Sublime",
     "tom_original": "G",
     "audio_url": "./src/audio/Sublime_G.mp3",
-    "cifra_chordpro": "[Intro] G Em D C\n\n{Verso 1}\n[G] [Em] [D] Quem é como Tu, Jesus\n[C] [G] Não há ninguém além de Ti\n[Em] [D] Que é manso e humilde assim\n[C] [C] [D] [G/B] Não há ninguém igual a Ti\n[Em] [D] Não há\n\n{Refrão}\n[C7M] [D] Maravilhoso, admirável\n[G/B] Tão sublime, glorioso\n[C7M] Ah, como espero o dia\n[Am] [G] [D] Em que verei a face do meu amado\n[Am] [G] [D] Ah, como espero o dia\n[Am] [G] [D] Em que a alegria enfim será completa"
+    "cifra_chordpro": "[Intro]\n [G|] [Em|] [D|] [C|]\n{Verso 1}\nQuem é [G]como [Em]Tu, Je[D]sus\nNão [C]há ninguém além de [G]Ti\nQue é manso [Em]e humilde as[D]sim\nNão[C] há ninguém igual a [C]Ti [D]--  [G/B]\nNã[Em]o há [D]\n{Refrão}\nMaravi[C7M]lhoso, admi[D]rável\nTão sub[G/B]lime, glori[Em]oso [D]\nTua pre[C7M]sença é mais dese[D]jável\nDo que o [G/B]ouro\nMelhor que a [Em]vida é o [D]teu amor\n{Ponte}\n[Am]Ah, como [G]espero o [D]dia\nEm que ve[Am]rei a [G]face do meu a[D]mado\n[Am]Ah, como [G]espero o [D]dia\nEm que a a[Am]legria en[G]fim será com[D]pleta\n{{Repete Refrão}}"
   },
   {
     "id": "tua-gloria",
-    "titulo": "Tua glória",
+    "titulo": "Tua Glória",
     "tom_original": "G",
-    "audio_url": "./src/audio/tua-gloria.mp3",
-    "cifra_chordpro": "[Intro] C D Bm C\n\n{Verso 1}\n[Em] [G] Leva-nos ao santo lugar\n[Am] Leva-nos mais perto de Ti\n[C] Queremos ver Tua glória aqui\n\n{Verso 2}\n[Em] [D/F#] [G] Mostra-nos Tua face, Senhor\n[Am] Há um clamor em nosso meio\n[C] Te adorar é o que queremos\n\n{Pré-refrão}\n[Am] [G/B] [C] Vem e toma o Teu lugar\n[Am] [G/B] [C] Precisamos do Teu mover\n\n{Refrão}\n[C] [Em] [D] Toca-nos, Senhor\n[Bm] [C] Abre os céus sobre nós\n[C] [Em] [D] [G] Mostra o Teu poder\n[G] Queremos Tua glória"
+    "audio_url": "./src/audio/Tua_gloria_G.mp3",
+    "cifra_chordpro": "[Intro]\n [C|] [D|] [Bm|] [C|]\n{Verso 1}\n[Em]Leva-nos ao santo lu[G]gar\nLeva-nos mais [Am]perto de Ti\nQueremos [C]ver Tua glória aqui\n[Em]Mostra-nos Tua [D/F#]face, Se[G]nhor\nHá um cla[Am]mor em nosso meio\nTe ado[C]rar é o que queremos\n{Pré-Refrão}\nVem e [Am]toma o [G]Teu lu[C]gar\nPreci[Am]samos [G]do Teu mo[C]ver\nVem e [Am]toma o [G]Teu lu[C]gar\nPreci[Am]samos [G]do Teu mo[D]ver\n{Refrão}\n[C]Toca-nos, Se[D]nhor\n[Bm]Abre os céus sobre [C]nós\n[C]Mostra o Teu po[D]der\nQueremos Tua [G]glória [G]\n{{Repete Verso 1}}\n{{Repete Pré-Refrão}}\n{{Repete Refrão}}\nQueremos Tua [C]glória [D]\nQueremos Tua [Bm]glória Se[Em]nhor\nQueremos Tua [C]glória [D]\nQueremos mais Tua [G]glória [G]\n[Interlúdio]\n [Am|] [G|] [D|] [D|]\n{Ponte}\nTu és [Am]Santo, Santo, [G]Santo\nDeus pode[D]roso [D]\nCom Tuas [Am]vestes, Tu [G]enches este lu[D]gar [D]\n{Final}\nQueremos Tua [Am]glória [G]\nQueremos Tua [D]glória [D]\nQueremos Tua [Am]glória, Se[G]nhor\nOh, vem com Tua [D]glória [D]\n{Refrão}\n[C]Toca-nos, Se[D]nhor\n[Bm]Abre os céus sobre [C]nós\n[C]Mostra o Teu po[D]der\nQueremos Tua [G]glória"
+  },
+  {
+    "id": "tudo-e-pra-tua-gloria",
+    "titulo": "Tudo é Pra Tua Glória",
+    "tom_original": "A",
+    "audio_url": "./src/audio/Tudo_e_pra_tua_gloria_A.mp3",
+    "cifra_chordpro": "[Intro]\n [A|] [A7M|]\n{Verso 1}\nHá um [A]propósito e[A7M]terno\nHá uma ra[A]zão para a exis[A7M]tência\n[A]Ambições e outros [A7M]sonhos\nUm di[Bm]a cai[F#m]rão  ao [A]chão \nUm di[Bm]a cai[F#m]rão  ao chã[A]o\n{Verso 2}\nTe [A]ter como o maior te[A7M]souro\nTe a[A]mar como a nenhum [A7M]outro\nTua gran[A]deza desco[A7M]berta\nE to[Bm]da terra [F#m]saberá[A]\nE to[Bm]da terra [F#m]saberá[A]\n{Pré-Refrão}\nSo[Bm]mente Tu és [A/C#]digno de exalta[E]ção\nAs [Bm]coisas desse [A/C#]mundo ante a Ti perdem o va[E]lor\nSo[Bm]mente Tu és [A/C#]digno de exalta[E]ção\n[Bm]Tu serás recon[A/C#]hecido rei [E]dos corações [E]\n{Refrão}\n[D]Tudo é pra Tua [A]glória\n[D]Tudo é pra o [F#m]Teu no[E]me\n[D]Tudo é pra Tua [A]glória\nSejas o pri[D]meiro\nEm tudo que eu fi[E]zer\nTens preemi[D]nência\nEm tudo que eu fi[E]zer\n{Ponte 1}\nUsa-me em q[D]ualquer lugar\nDerrama a Tua [E]glória em mim\nServirei e[F#m]m qualquer lugar\nQuero ver e[E]Tua beleza\n{Ponte 2}\nMe [D]envolva na Tua história\nMinha [E]vida pra Tua glória\nMe [F#m]envolva na Tua história\nMinha [E]vida pra Tua glória\nMeu Deus, [F#m]Tu és meu [E]prazer \nMeu Deus, [F#m]Tu és meu [E]prazer \n{{Repete Refrão}}"
   }
 ]

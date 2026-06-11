@@ -18,11 +18,24 @@ const themeToggleBtn = document.getElementById('theme-toggle-btn');
 const sidebarToggleBtn = document.getElementById('toggle-sidebar-btn');
 const sidebarEl = document.getElementById('sidebar');
 
+// Drawing Elements
+const drawingCanvas = document.getElementById('drawing-canvas');
+const ctx = drawingCanvas.getContext('2d');
+const btnDrawToggle = document.getElementById('btn-draw-toggle');
+const btnDrawUndo = document.getElementById('btn-draw-undo');
+const btnDrawClear = document.getElementById('btn-draw-clear');
+
 // State
 let songs = [];
 let currentSong = null;
 let currentTransposeOffset = 0;
 let originalKey = '';
+
+// Drawing State
+let isDrawingMode = false;
+let isDrawing = false;
+let currentStrokes = [];
+let currentPath = [];
 
 // Initialization
 async function init() {
@@ -49,6 +62,21 @@ function setupEventListeners() {
     
     btnTransposeUp.addEventListener('click', () => transpose(+1));
     btnTransposeDown.addEventListener('click', () => transpose(-1));
+
+    // Drawing Events
+    btnDrawToggle.addEventListener('click', toggleDrawingMode);
+    btnDrawUndo.addEventListener('click', undoDrawing);
+    btnDrawClear.addEventListener('click', clearDrawing);
+
+    drawingCanvas.addEventListener('pointerdown', startDrawing);
+    drawingCanvas.addEventListener('pointermove', draw);
+    drawingCanvas.addEventListener('pointerup', endDrawing);
+    drawingCanvas.addEventListener('pointercancel', endDrawing);
+    drawingCanvas.addEventListener('pointerout', endDrawing);
+
+    window.addEventListener('resize', () => {
+        if (currentSong) resizeCanvasAndRedraw();
+    });
 
     // Fechar barra lateral ao clicar fora dela no mobile
     document.addEventListener('click', (e) => {
@@ -128,10 +156,27 @@ function loadSong(song) {
     
     // Render Cypher
     renderCypher(song.cifra_chordpro);
+
+    // Desativar modo desenho ao carregar nova música
+    isDrawingMode = false;
+    cypherAreaEl.classList.remove('drawing-mode');
+    btnDrawToggle.classList.remove('active');
+    btnDrawUndo.style.display = 'none';
+    btnDrawClear.style.display = 'none';
+
+    // Esperar a renderização do DOM para pegar as dimensões corretas da cifra
+    setTimeout(() => {
+        loadStrokes();
+        resizeCanvasAndRedraw();
+    }, 50);
 }
 
 function renderCypher(chordproText) {
+    // Salva o canvas antes de limpar a div para que ele não seja destruído
+    const canvas = document.getElementById('drawing-canvas');
     cypherContentEl.innerHTML = '';
+    if (canvas) cypherContentEl.appendChild(canvas);
+
     const lines = chordproText.split('\n');
     
     lines.forEach(line => {
@@ -242,6 +287,138 @@ function updateKeyDisplay() {
         const newKey = transposeNote(originalKey, currentTransposeOffset);
         const sign = currentTransposeOffset > 0 ? '+' : '';
         currentKeyEl.textContent = `${newKey} (${sign}${currentTransposeOffset})`;
+    }
+}
+
+// --- Drawing Logic ---
+
+function toggleDrawingMode() {
+    if (!currentSong) return;
+    isDrawingMode = !isDrawingMode;
+    cypherAreaEl.classList.toggle('drawing-mode', isDrawingMode);
+    btnDrawToggle.classList.toggle('active', isDrawingMode);
+    
+    if (isDrawingMode) {
+        btnDrawUndo.style.display = 'flex';
+        btnDrawClear.style.display = 'flex';
+        resizeCanvasAndRedraw();
+    } else {
+        btnDrawUndo.style.display = 'none';
+        btnDrawClear.style.display = 'none';
+    }
+}
+
+function resizeCanvasAndRedraw() {
+    if (!currentSong) return;
+    const width = cypherContentEl.scrollWidth;
+    const height = cypherContentEl.scrollHeight;
+    
+    if (drawingCanvas.width !== width || drawingCanvas.height !== height) {
+        drawingCanvas.width = width;
+        drawingCanvas.height = height;
+    }
+    redrawCanvas();
+}
+
+function getPos(e) {
+    const rect = drawingCanvas.getBoundingClientRect();
+    return {
+        x: e.clientX - rect.left,
+        y: e.clientY - rect.top
+    };
+}
+
+function startDrawing(e) {
+    if (!isDrawingMode) return;
+    isDrawing = true;
+    currentPath = [getPos(e)];
+    drawPoint(currentPath[0]);
+}
+
+function draw(e) {
+    if (!isDrawing || !isDrawingMode) return;
+    const pos = getPos(e);
+    currentPath.push(pos);
+    
+    const prevPos = currentPath[currentPath.length - 2];
+    drawLine(prevPos, pos);
+}
+
+function endDrawing(e) {
+    if (!isDrawing) return;
+    isDrawing = false;
+    if (currentPath.length > 0) {
+        currentStrokes.push(currentPath);
+        saveStrokes();
+    }
+    currentPath = [];
+}
+
+function drawPoint(pos) {
+    ctx.beginPath();
+    ctx.arc(pos.x, pos.y, 2, 0, Math.PI * 2);
+    ctx.fillStyle = 'rgba(255, 69, 58, 0.7)'; // Vermelho suave translúcido
+    ctx.fill();
+    ctx.closePath();
+}
+
+function drawLine(p1, p2) {
+    ctx.beginPath();
+    ctx.moveTo(p1.x, p1.y);
+    ctx.lineTo(p2.x, p2.y);
+    ctx.strokeStyle = 'rgba(255, 69, 58, 0.7)';
+    ctx.lineWidth = 4;
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+    ctx.stroke();
+    ctx.closePath();
+}
+
+function redrawCanvas() {
+    ctx.clearRect(0, 0, drawingCanvas.width, drawingCanvas.height);
+    currentStrokes.forEach(path => {
+        if (path.length === 1) {
+            drawPoint(path[0]);
+        } else {
+            for (let i = 1; i < path.length; i++) {
+                drawLine(path[i-1], path[i]);
+            }
+        }
+    });
+}
+
+function undoDrawing() {
+    if (currentStrokes.length > 0) {
+        currentStrokes.pop();
+        saveStrokes();
+        redrawCanvas();
+    }
+}
+
+function clearDrawing() {
+    if (confirm('Tem certeza que deseja apagar todos os desenhos desta cifra?')) {
+        currentStrokes = [];
+        saveStrokes();
+        redrawCanvas();
+    }
+}
+
+function saveStrokes() {
+    if (!currentSong) return;
+    localStorage.setItem('drawings_' + currentSong.id, JSON.stringify(currentStrokes));
+}
+
+function loadStrokes() {
+    if (!currentSong) return;
+    const saved = localStorage.getItem('drawings_' + currentSong.id);
+    if (saved) {
+        try {
+            currentStrokes = JSON.parse(saved);
+        } catch(e) {
+            currentStrokes = [];
+        }
+    } else {
+        currentStrokes = [];
     }
 }
 

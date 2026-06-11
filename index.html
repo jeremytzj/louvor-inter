@@ -54,11 +54,26 @@
                             <button id="btn-transpose-up" class="btn" aria-label="+1 Tom">+1 Tom</button>
                         </div>
                     </div>
+                    
+                    <div class="tool-group drawing-tools">
+                        <div class="tool-buttons">
+                            <button id="btn-draw-toggle" class="btn icon-btn" aria-label="Modo Caneta" title="Modo Caneta">
+                                <ion-icon name="pencil-outline"></ion-icon>
+                            </button>
+                            <button id="btn-draw-undo" class="btn icon-btn" aria-label="Desfazer" title="Desfazer" style="display: none;">
+                                <ion-icon name="arrow-undo-outline"></ion-icon>
+                            </button>
+                            <button id="btn-draw-clear" class="btn icon-btn" aria-label="Limpar" title="Limpar" style="display: none;">
+                                <ion-icon name="trash-outline"></ion-icon>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="cypher-area" id="cypher-area">
                 <div id="cypher-content" class="cypher-content">
+                    <canvas id="drawing-canvas"></canvas>
                     <div class="placeholder-text">
                         <ion-icon name="musical-notes-outline"></ion-icon>
                         <p>Escolha uma música na barra lateral para começar.</p>
