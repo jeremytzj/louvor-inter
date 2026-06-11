@@ -10,15 +10,15 @@
 - **Layout Responsivo & Inteligente:** As cifras se organizam automaticamente em colunas dinâmicas (no estilo partitura), aproveitando todo o espaço do monitor e extinguindo a necessidade de rolagem vertical durante a leitura.
 - **Transpositor de Acordes:** Modifique o tom da música com um clique (`+1 Tom` / `-1 Tom`). A lógica matemática interna compreende sustenidos, bemóis, notas com baixo (ex: `D/F#`) e todos os modificadores (sus4, m7, etc).
 - **Player de Áudio Integrado:** Escute a referência original enquanto lê a cifra. A interface suporta nativamente faixas únicas e também múltiplas faixas (útil para medleys).
+- **Modo Caneta (Anotações Livres):** Ative a caneta e desenhe livremente por cima da cifra para criar suas próprias marcações de ensaio (setas, círculos, etc.). As anotações ficam salvas automaticamente por música no seu navegador (`localStorage`).
 - **Modo Escuro (Dark Mode):** Alternância instantânea de tema (claro/escuro) para conforto visual, ideal para palcos ou ambientes escuros.
-- **Barra Lateral Retrátil:** Navegação rápida. A lista é gerada e ordenada alfabeticamente, de forma totalmente automática.
+- **Barra Lateral Retrátil e UX Mobile:** Navegação rápida com suporte otimizado para celulares. A lista é gerada e ordenada alfabeticamente, e se oculta sozinha para liberar espaço de tela após selecionar a música.
 
 ## 🛠 Tecnologias Utilizadas
 
 O projeto foi construído **100% sem frameworks (Vanilla)**, focando em simplicidade, leveza e facilidade de deploy via *GitHub Pages*.
-- **HTML5:** Estrutura limpa e semântica.
-- **CSS3:** Variáveis nativas (design tokens) para a troca de temas e uso avançado de Flexbox em colunas dinâmicas para organizar perfeitamente o texto da cifra na tela inteira.
-- **JavaScript (ES6):** Manipulação de DOM limpa, cálculos modulares (base 12) em vetores circulares para a transposição musical, e leitura de arquivos via *Fetch API*.
+- **HTML5 & CSS3:** Uso de `<canvas>` para o modo de desenho, variáveis nativas (design tokens) e Flexbox em colunas dinâmicas.
+- **JavaScript (ES6):** Manipulação de DOM limpa, cálculos modulares em vetores circulares para a transposição musical, armazenamento de desenhos no `localStorage` e renderização em tempo real de textos ChordPro.
 
 ## 🚀 Como Rodar Localmente
 
@@ -59,6 +59,8 @@ A aplicação conta com um "motor de renderização" próprio que converte texto
    - *Exemplo:* `Eu te a[A9]mo Se[B9]nhor`
 3. **Acordes soltos (Intros e solos):** Para mostrar acordes que não tem letra junto, coloque-os normalmente e adicione um `|` (ou espaços extras) pra facilitar a formatação visual pra você no JSON.
    - *Exemplo:* `[Intro]\n [A|] [B|] [C#m|]`
+4. **Repetições (Economia de espaço):** Para ocultar seções que já apareceram e economizar tela, use a tag especial de repetição envolvida por chaves duplas. O próprio código omite a seção da tela.
+   - *Exemplo:* `{{Repete Refrão}}` ou `{{Repete Verso 1}}`
 
 ---
 
